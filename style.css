@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image:url(carnaby.png);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+
+.container {
+    position: relative;
+    display: block;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.fold {
+    position: fixed;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    opacity: 70%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    transition: all .3s ease-out;
+}
+
+
+
+.blue {
+    background-color: #3877EE
+}
+
+.green {
+    background-color: #6ABF4B;
+}
+
+.plus:nth-child(1) {
+    top: 66%;
+    left: 23%;
+}
+
+.plus:nth-child(2){
+    top: 26%;
+    left: 30.1%;
+}
+
+.plus:nth-child(3) {
+    top: 44.5%;
+    left: 35.7%;
+}
+
+.plus:nth-child(4) {
+    top: 58.1%;
+    left: 56.3%
+}
+
+.plus:nth-child(5) {
+    top: 73%;
+    left: 57.5%
+}
+
+.plus:nth-child(6) {
+    top: 37.3%;
+    left: 59.7%
+}
+
+.plus:nth-child(7) {
+    top: 62%;
+    left: 68%
+}
+
+.plus:nth-child(8) {
+    top: 20.7%;
+    left: 71.5%   
+}
+
+.plus:nth-child(9) {
+    top: 43.8%;
+    left: 73.6%
+}
+
+.plus:nth-child(10) {
+    top: 66%;
+    left: 83%
+}
+
+.hug {
+    width: 111px;
+    height: 38px;
+    opacity: 70%;
+    border-radius: 50px;
+    color: white;
+    padding: 11px 15px 11px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    word-spacing: 10px;
+    transition: all .3s ease;
+}
+
+
