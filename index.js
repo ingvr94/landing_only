@@ -1,7 +1,7 @@
 const plus =document.querySelectorAll('.fold')
 const hug = document.querySelectorAll('.hug')
 
-const objects=['Пирс','Офис','Cтадион','Вход','Отель','Вокзал','Ресторан','Дом','Медцентр','Дом']
+const objects=['Пирс','Офис','Cтадион','Вход','Отель','Вокзал','Ресторан','Дом','Склад','Дом']
 
 Array.from(plus).forEach((e,i)=>{
     e.addEventListener('click',()=>{
